@@ -1,0 +1,24 @@
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    color: #FED08A;
+    position: relative;
+}
+
+.container > div > img {
+    width: 100%;
+    height: 100%;
+}
+
+html, body {
+    background-color: #FED08A;
+    margin: 10px;
+}
+img {
+    /* display: inline-block; */
+    /* margin: 15px 10px; */
+    grid-area: p;
+  }
+  
